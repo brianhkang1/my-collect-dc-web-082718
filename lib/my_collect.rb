@@ -7,6 +7,7 @@ def my_collect(array)
       yield(array[i])
       new_array << array
       i += 1
+      new_array 
     end
     
   else
