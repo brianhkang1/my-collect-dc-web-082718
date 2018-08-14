@@ -9,7 +9,7 @@ def my_collect(array)
       new_array.push(array[i])
     end
     
-    array 
+    new_array 
   else
     "Hey! No block was given!"
   end
