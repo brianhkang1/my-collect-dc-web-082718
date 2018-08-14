@@ -5,9 +5,10 @@ def my_collect(array)
     while i < array.length
       yield(array[i])
       i += 1
+      new_array = array
     end
  
-    array
+    new_array
   else
     "Hey! No block was given!"
   end
